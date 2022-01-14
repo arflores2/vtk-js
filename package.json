@@ -1,5 +1,5 @@
 {
-  "name": "vtk.js",
+  "name": "@kitware/vtk.js",
   "version": "0.0.0-semantically-release",
   "description": "Visualization Toolkit for the Web",
   "keywords": [
