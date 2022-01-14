@@ -2,7 +2,7 @@ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import _classCallCheck from '@babel/runtime/helpers/classCallCheck';
 import _createClass from '@babel/runtime/helpers/createClass';
 import { mat4, vec3, glMatrix } from 'gl-matrix';
-import { a as areMatricesEqual } from './Math/index.js';
+import { C as areMatricesEqual } from './Math/index.js';
 
 var NoOp = function NoOp(v) {
   return v;

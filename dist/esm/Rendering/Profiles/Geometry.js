@@ -3,6 +3,7 @@ import '../OpenGL/Renderer.js';
 import '../OpenGL/Actor.js';
 import '../OpenGL/Actor2D.js';
 import '../OpenGL/PolyDataMapper.js';
+import '../OpenGL/PolyDataMapper2D.js';
 import '../OpenGL/Skybox.js';
 import '../OpenGL/Texture.js';
 import '../OpenGL/PixelSpaceCallbackMapper.js';

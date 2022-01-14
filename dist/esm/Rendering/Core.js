@@ -22,6 +22,7 @@ import vtkInteractorObserver from './Core/InteractorObserver.js';
 import vtkInteractorStyle from './Core/InteractorStyle.js';
 import vtkLight from './Core/Light.js';
 import vtkMapper from './Core/Mapper.js';
+import vtkMapper2D from './Core/Mapper2D.js';
 import vtkPicker from './Core/Picker.js';
 import vtkPixelSpaceCallbackMapper from './Core/PixelSpaceCallbackMapper.js';
 import vtkPointPicker from './Core/PointPicker.js';
@@ -70,6 +71,7 @@ var Core = {
   vtkInteractorStyle: vtkInteractorStyle,
   vtkLight: vtkLight,
   vtkMapper: vtkMapper,
+  vtkMapper2D: vtkMapper2D,
   vtkPicker: vtkPicker,
   vtkPixelSpaceCallbackMapper: vtkPixelSpaceCallbackMapper,
   vtkPointPicker: vtkPointPicker,

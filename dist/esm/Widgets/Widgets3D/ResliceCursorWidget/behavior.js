@@ -3,7 +3,7 @@ import macro from '../../../macros.js';
 import vtkBoundingBox from '../../../Common/DataModel/BoundingBox.js';
 import vtkLine from '../../../Common/DataModel/Line.js';
 import vtkPlanePointManipulator from '../../Manipulators/PlaneManipulator.js';
-import { x as multiplyScalar, s as subtract, e as normalize, d as dot, c as cross, Q as multiplyAccumulate, S as signedAngleBetweenVectors } from '../../../Common/Core/Math/index.js';
+import { w as multiplyScalar, g as subtract, f as normalize, d as dot, j as cross, Q as multiplyAccumulate, S as signedAngleBetweenVectors } from '../../../Common/Core/Math/index.js';
 import { updateState, getAssociatedLinesName, boundPointOnPlane, rotateVector } from './helpers.js';
 import { InteractionMethodsName, ScrollingMethods } from './Constants.js';
 

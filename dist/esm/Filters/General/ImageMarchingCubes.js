@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
-import { e as normalize } from '../../Common/Core/Math/index.js';
+import { f as normalize } from '../../Common/Core/Math/index.js';
 import vtkCaseTable from './ImageMarchingCubes/caseTable.js';
 
 var vtkErrorMacro = macro.vtkErrorMacro,

@@ -1,6 +1,6 @@
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import { newInstance as newInstance$1, obj, setGet, newTypedArray, vtkDebugMacro as vtkDebugMacro$1 } from '../../macros.js';
-import { c as cross, e as normalize } from '../../Common/Core/Math/index.js';
+import { j as cross, f as normalize } from '../../Common/Core/Math/index.js';
 import vtkWebGPUBuffer from './Buffer.js';
 import vtkWebGPUTypes from './Types.js';
 import vtkProperty from '../Core/Property.js';

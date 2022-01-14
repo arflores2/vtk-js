@@ -2,7 +2,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
 import vtkActor from '../../Rendering/Core/Actor.js';
 import vtkInteractorObserver from '../../Rendering/Core/InteractorObserver.js';
-import { s as subtract, b as add } from '../../Common/Core/Math/index.js';
+import { g as subtract, k as add } from '../../Common/Core/Math/index.js';
 import vtkPixelSpaceCallbackMapper from '../../Rendering/Core/PixelSpaceCallbackMapper.js';
 import vtkPointSource from '../../Filters/Sources/PointSource.js';
 import vtkHandleRepresentation from './HandleRepresentation.js';

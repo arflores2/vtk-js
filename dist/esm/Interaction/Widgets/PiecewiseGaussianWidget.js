@@ -2,7 +2,7 @@ import _slicedToArray from '@babel/runtime/helpers/slicedToArray';
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
-import { C as arrayRange } from '../../Common/Core/Math/index.js';
+import { B as arrayRange } from '../../Common/Core/Math/index.js';
 import WebworkerPromise from 'webworker-promise';
 import { W as WorkerFactory } from '../../_virtual/rollup-plugin-worker-loader__module_Sources/Interaction/Widgets/PiecewiseGaussianWidget/ComputeHistogram.worker.js';
 

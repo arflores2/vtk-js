@@ -1,5 +1,5 @@
 import macro from '../../../macros.js';
-import { e as normalize, c as cross } from '../../../Common/Core/Math/index.js';
+import { f as normalize, j as cross } from '../../../Common/Core/Math/index.js';
 
 function eq(v1, v2) {
   return v1.length === 3 && v2.length === 3 && v1[0] === v2[0] && v1[1] === v2[1] && v1[2] === v2[2];

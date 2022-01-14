@@ -553,12 +553,15 @@ function setArray(publicAPI, model, fieldNames, size) {
       }
 
       var array = args;
-      var changeDetected; // allow null or an array to be passed as a single arg.
+      var changeDetected;
+      var needCopy = false; // allow null or an array to be passed as a single arg.
 
       if (array.length === 1 && (array[0] == null || array[0].length >= 0)) {
         /* eslint-disable prefer-destructuring */
         array = array[0];
         /* eslint-enable prefer-destructuring */
+
+        needCopy = true;
       }
 
       if (array == null) {
@@ -567,6 +570,7 @@ function setArray(publicAPI, model, fieldNames, size) {
         if (size && array.length !== size) {
           if (array.length < size && defaultVal !== undefined) {
             array = Array.from(array);
+            needCopy = false;
 
             while (array.length < size) {
               array.push(defaultVal);
@@ -580,7 +584,7 @@ function setArray(publicAPI, model, fieldNames, size) {
           return item !== array[index];
         }) || model[field].length !== array.length;
 
-        if (changeDetected && !Array.isArray(array)) {
+        if (changeDetected && needCopy) {
           array = Array.from(array);
         }
       }

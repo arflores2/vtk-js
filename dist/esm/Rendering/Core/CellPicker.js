@@ -1,6 +1,6 @@
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
-import { e as normalize } from '../../Common/Core/Math/index.js';
+import { f as normalize } from '../../Common/Core/Math/index.js';
 import vtkPicker from './Picker.js';
 import vtkPoints from '../../Common/Core/Points.js';
 import vtkTriangle from '../../Common/DataModel/Triangle.js';

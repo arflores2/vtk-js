@@ -4,7 +4,7 @@ import vtkAbstractWidgetFactory from '../Core/AbstractWidgetFactory.js';
 import vtkPlane from '../../Common/DataModel/Plane.js';
 import vtkPlaneSource from '../../Filters/Sources/PlaneSource.js';
 import vtkResliceCursorContextRepresentation from '../Representations/ResliceCursorContextRepresentation.js';
-import { f as distance2BetweenPoints, Q as multiplyAccumulate, s as subtract, e as normalize, x as multiplyScalar, b as add } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints, Q as multiplyAccumulate, g as subtract, f as normalize, w as multiplyScalar, k as add } from '../../Common/Core/Math/index.js';
 import widgetBehavior from './ResliceCursorWidget/behavior.js';
 import generateState from './ResliceCursorWidget/state.js';
 import { updateState, transformPlane, boundPlane } from './ResliceCursorWidget/helpers.js';

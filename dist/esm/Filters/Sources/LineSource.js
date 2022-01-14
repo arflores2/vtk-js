@@ -1,6 +1,6 @@
 import macro from '../../macros.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
-import { s as subtract, n as norm } from '../../Common/Core/Math/index.js';
+import { g as subtract, n as norm } from '../../Common/Core/Math/index.js';
 
 var vtkWarningMacro = macro.vtkWarningMacro; // ----------------------------------------------------------------------------
 // vtkLineSource methods

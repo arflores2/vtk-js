@@ -10,7 +10,7 @@ import vtkSphereSource from '../../Filters/Sources/SphereSource.js';
 import { FieldAssociations } from '../../Common/DataModel/DataSet/Constants.js';
 import { mat4, vec3 } from 'gl-matrix';
 import macro from '../../macros.js';
-import { y as areEquals, e as normalize, d as dot, z as clampValue, s as subtract, c as cross, x as multiplyScalar, f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { y as areEquals, f as normalize, d as dot, z as clampValue, g as subtract, j as cross, w as multiplyScalar, e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 
 var States = vtkInteractorStyleConstants.States; // ----------------------------------------------------------------------------
 // vtkMouseCameraUnicamRotateManipulator methods

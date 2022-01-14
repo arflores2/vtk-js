@@ -2,7 +2,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
 import vtkActor from '../../Rendering/Core/Actor.js';
 import vtkMapper from '../../Rendering/Core/Mapper.js';
-import { y as areEquals, f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { y as areEquals, e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import vtkBoundingBox from '../../Common/DataModel/BoundingBox.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 import vtkTubeFilter from '../../Filters/General/TubeFilter.js';

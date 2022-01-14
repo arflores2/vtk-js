@@ -3,7 +3,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
 import vtkLabelRepresentation from './LabelRepresentation.js';
 import vtkLineRepresentation from './LineRepresentation.js';
-import { f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 

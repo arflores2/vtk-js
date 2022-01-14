@@ -35,6 +35,7 @@ function vtkForwardPass(publicAPI, model) {
           model.opaqueActorCount = 0;
           model.translucentActorCount = 0;
           model.volumeCount = 0;
+          model.overlayActorCount = 0;
           publicAPI.setCurrentOperation('queryPass');
           renNode.traverse(publicAPI); // do we need to capture a zbuffer?
 
@@ -79,6 +80,11 @@ function vtkForwardPass(publicAPI, model) {
             publicAPI.setCurrentOperation('volumePass');
             renNode.traverse(publicAPI);
           }
+
+          if (model.overlayActorCount > 0) {
+            publicAPI.setCurrentOperation('overlayPass');
+            renNode.traverse(publicAPI);
+          }
         }
       }
     }
@@ -107,6 +113,10 @@ function vtkForwardPass(publicAPI, model) {
   publicAPI.incrementVolumeCount = function () {
     return model.volumeCount++;
   };
+
+  publicAPI.incrementOverlayActorCount = function () {
+    return model.overlayActorCount++;
+  };
 } // ----------------------------------------------------------------------------
 // Object factory
 // ----------------------------------------------------------------------------
@@ -116,6 +126,7 @@ var DEFAULT_VALUES = {
   opaqueActorCount: 0,
   translucentActorCount: 0,
   volumeCount: 0,
+  overlayActorCount: 0,
   framebuffer: null,
   depthRequested: false
 }; // ----------------------------------------------------------------------------

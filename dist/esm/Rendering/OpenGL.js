@@ -13,6 +13,7 @@ import vtkImageMapper from './OpenGL/ImageMapper.js';
 import vtkImageSlice from './OpenGL/ImageSlice.js';
 import vtkPixelSpaceCallbackMapper from './OpenGL/PixelSpaceCallbackMapper.js';
 import vtkOpenGLPolyDataMapper from './OpenGL/PolyDataMapper.js';
+import vtkPolyDataMapper2D from './OpenGL/PolyDataMapper2D.js';
 import vtkRenderer from './OpenGL/Renderer.js';
 import vtkRenderWindow from './OpenGL/RenderWindow.js';
 import vtkShader from './OpenGL/Shader.js';
@@ -44,6 +45,7 @@ var OpenGL = {
   vtkImageSlice: vtkImageSlice,
   vtkPixelSpaceCallbackMapper: vtkPixelSpaceCallbackMapper,
   vtkPolyDataMapper: vtkOpenGLPolyDataMapper,
+  vtkPolyDataMapper2D: vtkPolyDataMapper2D,
   vtkRenderer: vtkRenderer,
   vtkRenderWindow: vtkRenderWindow,
   vtkShader: vtkShader,

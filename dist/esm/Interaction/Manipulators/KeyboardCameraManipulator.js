@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkBoundingBox from '../../Common/DataModel/BoundingBox.js';
 import vtkCompositeKeyboardManipulator from './CompositeKeyboardManipulator.js';
-import { b as add, e as normalize, c as cross } from '../../Common/Core/Math/index.js';
+import { k as add, f as normalize, j as cross } from '../../Common/Core/Math/index.js';
 
 var vtkErrorMacro = macro.vtkErrorMacro;
 var ANIMATION_REQUESTER = 'vtkKeyboardCameraManipulator'; // ----------------------------------------------------------------------------

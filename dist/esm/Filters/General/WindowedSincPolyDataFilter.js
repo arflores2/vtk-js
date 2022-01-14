@@ -2,7 +2,7 @@ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
 import vtkBoundingBox from '../../Common/DataModel/BoundingBox.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';
-import { A as vtkMath } from '../../Common/Core/Math/index.js';
+import { o as vtkMath } from '../../Common/Core/Math/index.js';
 import { AttributeTypes } from '../../Common/DataModel/DataSetAttributes/Constants.js';
 import vtkPoints from '../../Common/Core/Points.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';

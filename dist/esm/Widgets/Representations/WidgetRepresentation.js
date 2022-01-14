@@ -1,7 +1,7 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
 import vtkProp from '../../Rendering/Core/Prop.js';
-import { s as subtract, d as dot } from '../../Common/Core/Math/index.js';
+import { g as subtract, d as dot } from '../../Common/Core/Math/index.js';
 import { Behavior } from './WidgetRepresentation/Constants.js';
 import { RenderingTypes } from '../Core/WidgetManager/Constants.js';
 import { CATEGORIES } from '../../Rendering/Core/Mapper/CoincidentTopologyHelper.js';

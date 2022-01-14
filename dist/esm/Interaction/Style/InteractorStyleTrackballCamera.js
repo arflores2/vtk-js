@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkInteractorStyle from '../../Rendering/Core/InteractorStyle.js';
 import vtkInteractorStyleConstants from '../../Rendering/Core/InteractorStyle/Constants.js';
-import { o as degreesFromRadians } from '../../Common/Core/Math/index.js';
+import { x as degreesFromRadians } from '../../Common/Core/Math/index.js';
 import { Device, Input } from '../../Rendering/Core/RenderWindowInteractor/Constants.js';
 
 var States = vtkInteractorStyleConstants.States;

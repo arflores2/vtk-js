@@ -2,7 +2,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import { mat4, mat3 } from 'gl-matrix';
 import Constants from './LandmarkTransform/Constants.js';
 import macro from '../../macros.js';
-import { k as jacobiN, p as perpendiculars } from '../Core/Math/index.js';
+import { m as jacobiN, p as perpendiculars } from '../Core/Math/index.js';
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 

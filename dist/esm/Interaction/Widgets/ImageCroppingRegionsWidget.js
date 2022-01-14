@@ -1,7 +1,7 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
-import { e as normalize, d as dot, s as subtract, B as projectVector, b as add } from '../../Common/Core/Math/index.js';
+import { f as normalize, d as dot, g as subtract, A as projectVector, k as add } from '../../Common/Core/Math/index.js';
 import vtkPlane from '../../Common/DataModel/Plane.js';
 import vtkAbstractWidget from './AbstractWidget.js';
 import vtkImageCroppingRegionsRepresentation from './ImageCroppingRegionsRepresentation.js';

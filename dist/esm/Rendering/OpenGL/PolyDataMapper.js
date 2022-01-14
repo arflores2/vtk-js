@@ -3,7 +3,7 @@ import { mat3, mat4, vec3 } from 'gl-matrix';
 import { newInstance as newInstance$1, setGet, obj, vtkErrorMacro as vtkErrorMacro$1 } from '../../macros.js';
 import vtkHelper from './Helper.js';
 import vtkMapper from '../Core/Mapper.js';
-import { e as normalize, u as uninitializeBounds } from '../../Common/Core/Math/index.js';
+import { f as normalize, u as uninitializeBounds } from '../../Common/Core/Math/index.js';
 import vtkOpenGLTexture from './Texture.js';
 import vtkProperty from '../Core/Property.js';
 import vtkShaderProgram from './ShaderProgram.js';
@@ -1269,9 +1269,10 @@ var newInstance = newInstance$1(extend, 'vtkOpenGLPolyDataMapper'); // ---------
 
 var vtkOpenGLPolyDataMapper$1 = {
   newInstance: newInstance,
-  extend: extend
+  extend: extend,
+  primTypes: primTypes
 }; // Register ourself to OpenGL backend if imported
 
 registerOverride('vtkMapper', newInstance);
 
-export { vtkOpenGLPolyDataMapper$1 as default, extend, newInstance };
+export { vtkOpenGLPolyDataMapper$1 as default, extend, newInstance, primTypes };

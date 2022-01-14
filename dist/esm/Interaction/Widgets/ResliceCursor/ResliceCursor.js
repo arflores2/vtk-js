@@ -1,7 +1,7 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../../macros.js';
-import { c as cross, e as normalize, z as clampValue } from '../../../Common/Core/Math/index.js';
+import { j as cross, f as normalize, z as clampValue } from '../../../Common/Core/Math/index.js';
 import vtkPolyData from '../../../Common/DataModel/PolyData.js';
 import vtkPlane from '../../../Common/DataModel/Plane.js';
 import vtkCellArray from '../../../Common/Core/CellArray.js';

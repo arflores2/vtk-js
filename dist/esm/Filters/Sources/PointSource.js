@@ -1,5 +1,5 @@
 import macro from '../../macros.js';
-import { l as random } from '../../Common/Core/Math/index.js';
+import { q as random } from '../../Common/Core/Math/index.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 
 // vtkPointSource methods

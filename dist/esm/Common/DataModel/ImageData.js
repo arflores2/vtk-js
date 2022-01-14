@@ -1,6 +1,6 @@
 import _slicedToArray from '@babel/runtime/helpers/slicedToArray';
 import macro from '../../macros.js';
-import { q as computeBoundsFromPoints, t as roundVector, w as clampVector } from '../Core/Math/index.js';
+import { c as computeBoundsFromPoints, a as roundVector, b as clampVector } from '../Core/Math/index.js';
 import vtkBoundingBox from './BoundingBox.js';
 import vtkDataSet from './DataSet.js';
 import vtkStructuredData from './StructuredData.js';

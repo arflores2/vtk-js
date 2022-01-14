@@ -3,7 +3,7 @@ import { mat4, vec3 } from 'gl-matrix';
 import macro from '../../macros.js';
 import vtkCompositeCameraManipulator from './CompositeCameraManipulator.js';
 import vtkCompositeMouseManipulator from './CompositeMouseManipulator.js';
-import { r as radiansFromDegrees, c as cross } from '../../Common/Core/Math/index.js';
+import { r as radiansFromDegrees, j as cross } from '../../Common/Core/Math/index.js';
 import vtkMatrixBuilder from '../../Common/Core/MatrixBuilder.js';
 
 // vtkMouseCameraAxisRotateManipulator methods

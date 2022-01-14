@@ -1,4 +1,4 @@
-import { f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import macro from '../../macros.js';
 import generateState from './LineWidget/state.js';
 import vtkAbstractWidgetFactory from '../Core/AbstractWidgetFactory.js';

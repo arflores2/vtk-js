@@ -4,7 +4,7 @@ import { mat4, vec4 } from 'gl-matrix';
 import vtkImageMapper from '../../../Rendering/Core/ImageMapper.js';
 import vtkImageReslice from '../../../Imaging/Core/ImageReslice.js';
 import vtkImageSlice from '../../../Rendering/Core/ImageSlice.js';
-import { b as add, s as subtract, e as normalize } from '../../../Common/Core/Math/index.js';
+import { k as add, g as subtract, f as normalize } from '../../../Common/Core/Math/index.js';
 import vtkPlaneSource from '../../../Filters/Sources/PlaneSource.js';
 import vtkWidgetRepresentation from '../WidgetRepresentation.js';
 import { transformPlane, boundPlane } from '../../../Widgets/Widgets3D/ResliceCursorWidget/helpers.js';

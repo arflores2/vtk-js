@@ -5,7 +5,7 @@ import vtkCompositeMouseManipulator from './CompositeMouseManipulator.js';
 import vtkInteractorStyleConstants from '../../Rendering/Core/InteractorStyle/Constants.js';
 import vtkMouseCameraUnicamRotateManipulator from './MouseCameraUnicamRotateManipulator.js';
 import macro from '../../macros.js';
-import { s as subtract, x as multiplyScalar, e as normalize, d as dot, r as radiansFromDegrees, c as cross } from '../../Common/Core/Math/index.js';
+import { g as subtract, w as multiplyScalar, f as normalize, d as dot, r as radiansFromDegrees, j as cross } from '../../Common/Core/Math/index.js';
 
 var States = vtkInteractorStyleConstants.States; // ----------------------------------------------------------------------------
 // vtkMouseCameraUnicamManipulator methods

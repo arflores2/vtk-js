@@ -1,6 +1,6 @@
 import macro from '../../macros.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';
-import { f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 
 var vtkErrorMacro = macro.vtkErrorMacro; // ----------------------------------------------------------------------------

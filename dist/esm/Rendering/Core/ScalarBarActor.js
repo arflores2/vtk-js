@@ -2,7 +2,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import { vec3, mat4 } from 'gl-matrix';
 import * as d3 from 'd3-scale';
-import { K as nearestPowerOfTwo } from '../../Common/Core/Math/index.js';
+import { J as nearestPowerOfTwo } from '../../Common/Core/Math/index.js';
 import macro from '../../macros.js';
 import vtkActor from './Actor.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';

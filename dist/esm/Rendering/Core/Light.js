@@ -1,5 +1,5 @@
 import macro from '../../macros.js';
-import { e as normalize, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
+import { f as normalize, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
 
 var LIGHT_TYPES = ['HeadLight', 'CameraLight', 'SceneLight']; // ----------------------------------------------------------------------------
 // vtkLight methods

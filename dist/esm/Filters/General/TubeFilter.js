@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkCellArray from '../../Common/Core/CellArray.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';
-import { e as normalize, c as cross, n as norm, d as dot, f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { f as normalize, j as cross, n as norm, d as dot, e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import vtkPoints from '../../Common/Core/Points.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 import { DesiredOutputPrecision } from '../../Common/DataModel/DataSetAttributes/Constants.js';

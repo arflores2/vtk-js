@@ -2,7 +2,7 @@ import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import Constants from './Constants.js';
 import macro from '../../../macros.js';
-import { s as subtract, b as add, e as normalize } from '../../../Common/Core/Math/index.js';
+import { g as subtract, k as add, f as normalize } from '../../../Common/Core/Math/index.js';
 import { getNumberOfPlacedHandles, isHandlePlaced, calculateTextPosition, updateTextPosition, getPoint } from './helpers.js';
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }

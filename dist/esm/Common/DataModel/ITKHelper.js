@@ -2,7 +2,7 @@ import macro from '../../macros.js';
 import vtkImageData from './ImageData.js';
 import vtkDataArray from '../Core/DataArray.js';
 
-var vtkErrorMacro = macro.vtkErrorMacro; // see itk.js/PixelTypes.js
+var vtkErrorMacro = macro.vtkErrorMacro; // see itk.js PixelTypes.js
 
 var ITKJSPixelTypes = {
   Unknown: 0,

@@ -3,7 +3,7 @@ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 import vtkMatrixBuilder from '../../Common/Core/MatrixBuilder.js';
-import { x as multiplyScalar } from '../../Common/Core/Math/index.js';
+import { w as multiplyScalar } from '../../Common/Core/Math/index.js';
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 

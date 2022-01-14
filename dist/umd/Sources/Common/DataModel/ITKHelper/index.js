@@ -4,7 +4,7 @@ import vtkDataArray from 'vtk.js/Sources/Common/Core/DataArray';
 
 const { vtkErrorMacro } = macro;
 
-// see itk.js/PixelTypes.js
+// see itk.js PixelTypes.js
 const ITKJSPixelTypes = {
   Unknown: 0,
   Scalar: 1,

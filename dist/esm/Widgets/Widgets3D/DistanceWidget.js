@@ -3,7 +3,7 @@ import vtkAbstractWidgetFactory from '../Core/AbstractWidgetFactory.js';
 import vtkPlanePointManipulator from '../Manipulators/PlaneManipulator.js';
 import vtkPolyLineRepresentation from '../Representations/PolyLineRepresentation.js';
 import vtkSphereHandleRepresentation from '../Representations/SphereHandleRepresentation.js';
-import { f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import widgetBehavior from './DistanceWidget/behavior.js';
 import generateState from './DistanceWidget/state.js';
 import { ViewTypes } from '../Core/WidgetManager/Constants.js';

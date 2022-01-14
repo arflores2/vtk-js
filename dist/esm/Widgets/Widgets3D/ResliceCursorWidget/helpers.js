@@ -3,7 +3,7 @@ import vtkBoundingBox, { STATIC } from '../../../Common/DataModel/BoundingBox.js
 import vtkCubeSource from '../../../Filters/Sources/CubeSource.js';
 import vtkCutter from '../../../Filters/Core/Cutter.js';
 import vtkPlane from '../../../Common/DataModel/Plane.js';
-import { s as subtract, e as normalize, c as cross, Q as multiplyAccumulate, S as signedAngleBetweenVectors } from '../../../Common/Core/Math/index.js';
+import { g as subtract, f as normalize, j as cross, Q as multiplyAccumulate, S as signedAngleBetweenVectors } from '../../../Common/Core/Math/index.js';
 import vtkMatrixBuilder from '../../../Common/Core/MatrixBuilder.js';
 import { ViewTypes } from '../../Core/WidgetManager/Constants.js';
 

@@ -1,6 +1,6 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
-import { f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import vtkCellPicker from '../../Rendering/Core/CellPicker.js';
 import vtkActor from '../../Rendering/Core/Actor.js';
 import vtkWidgetRepresentation from './WidgetRepresentation.js';

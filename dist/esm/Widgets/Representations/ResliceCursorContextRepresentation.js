@@ -1,7 +1,7 @@
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
-import { s as subtract, Q as multiplyAccumulate, e as normalize, c as cross } from '../../Common/Core/Math/index.js';
+import { g as subtract, Q as multiplyAccumulate, f as normalize, j as cross } from '../../Common/Core/Math/index.js';
 import vtkActor from '../../Rendering/Core/Actor.js';
 import vtkCylinderSource from '../../Filters/Sources/CylinderSource.js';
 import vtkMapper from '../../Rendering/Core/Mapper.js';

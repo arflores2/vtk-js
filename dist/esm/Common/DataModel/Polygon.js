@@ -1,6 +1,6 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
-import { e as normalize, s as subtract, c as cross, b as add, d as dot, n as norm } from '../Core/Math/index.js';
+import { f as normalize, g as subtract, j as cross, k as add, d as dot, n as norm } from '../Core/Math/index.js';
 import vtkLine from './Line.js';
 import vtkPlane from './Plane.js';
 import vtkPriorityQueue from '../Core/PriorityQueue.js';

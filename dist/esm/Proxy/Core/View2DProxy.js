@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkMouseRangeManipulator from '../../Interaction/Manipulators/MouseRangeManipulator.js';
 import vtkViewProxy from './ViewProxy.js';
-import { c as cross, D as getMajorAxisIndex } from '../../Common/Core/Math/index.js';
+import { j as cross, D as getMajorAxisIndex } from '../../Common/Core/Math/index.js';
 
 var DEFAULT_STEP_WIDTH = 512;
 

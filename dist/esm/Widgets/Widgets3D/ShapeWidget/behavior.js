@@ -1,7 +1,7 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../../macros.js';
-import { A as vtkMath } from '../../../Common/Core/Math/index.js';
+import { o as vtkMath } from '../../../Common/Core/Math/index.js';
 import vtkBoundingBox from '../../../Common/DataModel/BoundingBox.js';
 import vtkPlane from '../../../Common/DataModel/Plane.js';
 import { ShapeBehavior, BehaviorCategory, TextPosition } from './Constants.js';

@@ -1,7 +1,7 @@
 import { mat4, quat } from 'gl-matrix';
 import macro from '../../macros.js';
 import vtkBoundingBox from '../../Common/DataModel/BoundingBox.js';
-import { o as degreesFromRadians, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
+import { x as degreesFromRadians, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
 import vtkProp from './Prop.js';
 
 // vtkProp3D methods

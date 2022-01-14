@@ -5,7 +5,7 @@ import vtkCellPicker from '../../Rendering/Core/CellPicker.js';
 import vtkHandleRepresentation from './HandleRepresentation.js';
 import vtkInteractorObserver from '../../Rendering/Core/InteractorObserver.js';
 import vtkMapper from '../../Rendering/Core/Mapper.js';
-import { f as distance2BetweenPoints, n as norm } from '../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints, n as norm } from '../../Common/Core/Math/index.js';
 import vtkProperty from '../../Rendering/Core/Property.js';
 import vtkSphereSource from '../../Filters/Sources/SphereSource.js';
 import { InteractionState } from './HandleRepresentation/Constants.js';

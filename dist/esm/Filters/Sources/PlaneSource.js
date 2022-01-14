@@ -2,7 +2,7 @@ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import { mat4, vec3 } from 'gl-matrix';
 import macro from '../../macros.js';
 import vtkDataArray from '../../Common/Core/DataArray.js';
-import { s as subtract, e as normalize, d as dot, c as cross, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
+import { g as subtract, f as normalize, d as dot, j as cross, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
 import vtkMatrixBuilder from '../../Common/Core/MatrixBuilder.js';
 import vtkPolyData from '../../Common/DataModel/PolyData.js';
 

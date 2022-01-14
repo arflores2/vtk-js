@@ -1,6 +1,6 @@
 import { mat4, vec3 } from 'gl-matrix';
 import macro from '../../macros.js';
-import { c as cross, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
+import { j as cross, r as radiansFromDegrees } from '../../Common/Core/Math/index.js';
 
 function trackballRotate(prevX, prevY, curX, curY, origin, direction, renderer, glRenderWindow) {
   var dx = curX - prevX;

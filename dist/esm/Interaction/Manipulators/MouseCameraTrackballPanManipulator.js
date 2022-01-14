@@ -1,7 +1,7 @@
 import macro from '../../macros.js';
 import vtkCompositeCameraManipulator from './CompositeCameraManipulator.js';
 import vtkCompositeMouseManipulator from './CompositeMouseManipulator.js';
-import { c as cross } from '../../Common/Core/Math/index.js';
+import { j as cross } from '../../Common/Core/Math/index.js';
 
 // vtkMouseCameraTrackballPanManipulator methods
 // ----------------------------------------------------------------------------

@@ -2,7 +2,7 @@ import { mat4, vec3 } from 'gl-matrix';
 import macro from '../../macros.js';
 import vtkCompositeCameraManipulator from './CompositeCameraManipulator.js';
 import vtkCompositeMouseManipulator from './CompositeMouseManipulator.js';
-import { x as multiplyScalar, d as dot, b as add, r as radiansFromDegrees, c as cross } from '../../Common/Core/Math/index.js';
+import { w as multiplyScalar, d as dot, k as add, r as radiansFromDegrees, j as cross } from '../../Common/Core/Math/index.js';
 
 // vtkMouseCameraTrackballRotateManipulator methods
 // ----------------------------------------------------------------------------

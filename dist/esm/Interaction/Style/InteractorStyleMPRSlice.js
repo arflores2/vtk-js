@@ -1,6 +1,6 @@
 import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../macros.js';
-import { e as normalize, f as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
+import { f as normalize, e as distance2BetweenPoints } from '../../Common/Core/Math/index.js';
 import vtkMatrixBuilder from '../../Common/Core/MatrixBuilder.js';
 import vtkInteractorStyleManipulator from './InteractorStyleManipulator.js';
 import vtkMouseCameraTrackballRotateManipulator from '../Manipulators/MouseCameraTrackballRotateManipulator.js';

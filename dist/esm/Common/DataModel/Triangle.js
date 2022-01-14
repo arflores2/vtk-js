@@ -1,7 +1,7 @@
 import _defineProperty from '@babel/runtime/helpers/defineProperty';
 import macro from '../../macros.js';
 import vtkCell from './Cell.js';
-import { f as distance2BetweenPoints, d as dot, j as determinant2x2 } from '../Core/Math/index.js';
+import { e as distance2BetweenPoints, d as dot, l as determinant2x2 } from '../Core/Math/index.js';
 import vtkLine from './Line.js';
 import vtkPlane from './Plane.js';
 

@@ -2,7 +2,7 @@ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
 import macro from '../../../macros.js';
 import vtkInteractorObserver from '../../../Rendering/Core/InteractorObserver.js';
 import vtkLine from '../../../Common/DataModel/Line.js';
-import { f as distance2BetweenPoints, e as normalize, d as dot, c as cross, u as uninitializeBounds } from '../../../Common/Core/Math/index.js';
+import { e as distance2BetweenPoints, f as normalize, d as dot, j as cross, u as uninitializeBounds } from '../../../Common/Core/Math/index.js';
 import vtkMatrixBuilder from '../../../Common/Core/MatrixBuilder.js';
 import vtkPlane from '../../../Common/DataModel/Plane.js';
 import vtkResliceCursorActor from './ResliceCursorActor.js';
